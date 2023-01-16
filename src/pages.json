@@ -3,11 +3,59 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app",
-				"navigationBarBackgroundColor": "#FFFFFF"
+				"navigationBarTitleText": "广大猫阁",
+				"navigationBarBackgroundColor": "#598DF9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#598DF9"
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "猫猫图鉴",
+				"navigationBarBackgroundColor": "#598DF9",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"navigationBarBackgroundColor": "#598DF9",
+				"navigationBarTextStyle": "white"
 			}
 		}
 	],
+	"tabBar": {
+		"selectedColor": "#598DF9",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/icons/index.png",
+				"selectedIconPath": "./static/icons/indexSel.png"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "图鉴",
+				"iconPath": "./static/icons/find.png",
+				"selectedIconPath": "./static/icons/findSel.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./static/icons/wode.png",
+				"selectedIconPath": "./static/icons/wodeSel.png"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
